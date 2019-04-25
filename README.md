@@ -1,4 +1,4 @@
-# Gulp Boilerplate HTML
+# Academy Project
 
 ## Usage
 
