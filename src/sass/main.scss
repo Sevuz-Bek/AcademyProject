@@ -1,0 +1,32 @@
+@import './variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//custom 
+
+@import 'page/page';
+
+html,
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    height: 100%;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    border-bottom: none;
+  }
+}
