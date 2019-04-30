@@ -11,70 +11,76 @@
 </head>
 
 <body>
-    <header class="header fixed">
-
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light rounded">
-                <a class="close-element" href="#"><img class="header__logo" src="https://picsum.photos/300/150?random" alt="Logo"></a>
-                <button class="navbar-toggler toggle-hamburger toggle-hamburger__animx" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarsExample09">
-                    <ul class="navbar-nav ml-auto justify-content-around flex-row mt-3">
-                        <li class="nav-item">
-                            <a class="nav-link close-element" href="#">Files <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item close-element">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <ul class="navbar-nav ml-auto flex-row">
+    <header class="header">
+        <div class="fix-container fixed">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light rounded ord">
+                        <a class="close-element" href="#"><img class="header__logo" src="https://picsum.photos/300/150?random" alt="Logo"></a>
+                        <button class="navbar-toggler toggle-hamburger toggle-hamburger__animx" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample09">
+                            <ul class="navbar-nav ml-auto justify-content-around flex-row mt-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#">En</a> 
+                                    <a class="nav-link close-element" href="#">Files <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item">
-                                    <span class="nav-link px-0 px-md-2 px-sm-2">|</span>  
+                                <li class="nav-item close-element">
+                                    <a class="nav-link" href="#">Blog</a>
                                 </li>
+        
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">De</a>
+                                    <ul class="navbar-nav ml-auto flex-row">
+                                            <form class="scroll-form">
+                                                <input type="text" placeholder="Search">
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        <li class="nav-item">
+                                            <a class="nav-link active pr-1" href="#">En</a> 
+                                        </li>
+                                        <li class="nav-item">
+                                            <span class="nav-link px-0">|</span>  
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link pl-1" href="#">De</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-                
-             <nav class="navbar navbar-expand-lg navbar-light rounded">
-                <div class="collapse navbar-collapse justify-content-between" id="navbarsExample09">
-                    <ul class="navbar-nav text-center">
-                        <li class="nav-item pr-3 show-element"> <a href="#"><img src="https://picsum.photos/100/40?random" alt=""></a></li>
-                        <li class="nav-item active border-md-top">
-                            <a class="nav-link pl-0" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item border-top">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item border-top">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item border-top">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>    
-                    <form class="form-inline my-2 my-md-0">
-                        <input class="form-control flex-md-fill flex-sm-fill mr-1 close-element" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-search"><i class="fa fa-search"></i></button>
-                    </form>
-                    
-                </div>
-            </nav> 
+                        </div>
+                    </nav>
+                        
+                        <nav class="navbar navbar-expand-lg navbar-light rounded">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarsExample09">
+                            <ul class="navbar-nav text-center">
+                                <li class="nav-item pr-3 show-element"> <a href="#"><img src="https://picsum.photos/100/40?random" alt=""></a></li>
+                                <li class="nav-item active border-md-top">
+                                    <a class="nav-link pl-0" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item border-top">
+                                    <a class="nav-link" href="#">Projects</a>
+                                </li>
+                                <li class="nav-item border-top">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item border-top">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>    
+                            <form class="form-inline my-2 my-md-0 close-element">
+                                <input class="form-control flex-md-fill flex-sm-fill mr-1" type="text" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-search"><i class="fa fa-search"></i></button>
+                            </form>
+        
+                        </div>
+                    </nav> 
+            </div>
         </div>
     </header>
+    
 
     <main role="main">
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide mt-3" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -126,7 +132,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="description">
-                        <h3 class="text-center">First featurette heading. It’ll blow your mind.</h3>
+                        <h3 class="text-center">First featurette heading. It'll blow your mind.</h3>
                         <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus 
                         magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Donec ullamcorper nulla non metus auctor 
                         fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. 
@@ -159,6 +165,8 @@
                 </div><!-- /.col-lg-4 -->
             </div>
         </div>
+
+        
 
         <div class="container bg-light px-5 pt-4">
             <div class="row mb-5 d-flex justify-content-center align-items-center">
@@ -261,13 +269,6 @@
             </div>
         </div>
     </footer>
-
-
-    
-    
-
-
-
 
     
     <script src="js/scripts.min.js"></script>
